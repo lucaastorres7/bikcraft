@@ -57,6 +57,10 @@
   .header-menu a:hover {
     background-color: #2e2e2e;
   }
+
+  .header-menu a::after {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
