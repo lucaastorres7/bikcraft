@@ -26,12 +26,16 @@
 }
 
 .intro h1 {
+  font-family: "Poppins";
+  font-weight: 600;
   margin-bottom: 32px;
   font-size: 64px;
   line-height: 1.125;
 }
 
 .intro p {
+  font-family: "Roboto";
+  font-weight: 400;
   margin-bottom: 20px;
   font-size: 24px;
   line-height: 1.5;
@@ -43,6 +47,8 @@
 }
 
 .intro a {
+  font-family: "Poppins";
+  font-weight: 600;
   display: inline-block;
   padding: 16px 32px;
   background: linear-gradient(#ffbf00, #f2a50c);
@@ -52,7 +58,6 @@
   color: #320;
   font-size: 18px;
   line-height: 1.33;
-  font-weight: bold;
 }
 
 .intro a:hover {
