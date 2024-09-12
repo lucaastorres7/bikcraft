@@ -1,0 +1,36 @@
+.pros-bg {
+  background-color: var(--cor-12);
+}
+
+.pros {
+  padding: 120px 20px;
+}
+
+.pros h2 {
+  margin-bottom: 60px;
+}
+
+.pros ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px 80px;
+}
+
+.pros h3,
+.pros img {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .pros {
+    padding: 60px 0px;
+  }
+
+  .pros h2 {
+    margin-bottom: 40px;
+  }
+
+  .pros ul {
+    gap: 20px;
+  }
+}
