@@ -6,6 +6,7 @@
 
 /* Utility */
 @import "./utility/components.css";
+@import "./utility/form.css";
 
 /* Home */
 @import "./home/intro.css";
@@ -25,6 +26,10 @@
 @import "./insurance/insurance.css";
 @import "./insurance/pros.css";
 @import "./insurance/questions.css";
+
+/* Contact */
+@import "./contact/contact.css";
+@import "./contact/stores.css";
 
 /* Terms */
 @import "./terms/terms.css";
