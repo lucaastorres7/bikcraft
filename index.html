@@ -8,6 +8,7 @@
       name="description"
       content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft."
     />
+    <link rel="preload" href="./css/style.css" as="style" />
     <link rel="stylesheet" href="./css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,7 +23,7 @@
     <header class="header-bg">
       <div class="header container">
         <a href="./">
-          <img src="/img/bikcraft.svg" alt="Bikcraft" />
+          <img src="/img/bikcraft.svg" width="136" height="32" alt="Bikcraft" />
         </a>
 
         <nav aria-label="primaria">
@@ -49,12 +50,18 @@
           <a class="botao" href="./bicicletas.html">Escolha a sua</a>
         </div>
 
-        <div>
+        <picture>
+          <source
+            media="(max-width: 800px)"
+            srcset="./img/bicicletas/nimbus.jpg"
+          />
           <img
             src="./img/fotos/introducao.jpg"
+            width="1280"
+            height="1600"
             alt="Bicicleta elétrica preta."
           />
-        </div>
+        </picture>
       </div>
     </main>
 
@@ -109,7 +116,12 @@
 
           <div class="tech-benefits">
             <div>
-              <img src="./img/icones/eletrica.svg" alt="" />
+              <img
+                src="./img/icones/eletrica.svg"
+                width="24"
+                height="24"
+                alt=""
+              />
               <h3 class="font-1-m cor-0">Motor Elétrico</h3>
               <p class="font-2-s cor-5">
                 Toda Bikcraft é equipada com um motor elétrico que possui
@@ -119,7 +131,12 @@
             </div>
 
             <div>
-              <img src="./img/icones/rastreador.svg" alt="" />
+              <img
+                src="./img/icones/rastreador.svg"
+                width="24"
+                height="24"
+                alt=""
+              />
               <h3 class="font-1-m cor-0">Rastreador</h3>
               <p class="font-2-s cor-5">
                 Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos
@@ -130,7 +147,12 @@
         </div>
 
         <div class="tech-image">
-          <img src="./img/fotos/tecnologia.jpg" alt="" />
+          <img
+            src="./img/fotos/tecnologia.jpg"
+            width="1200"
+            height="1920"
+            alt=""
+          />
         </div>
       </div>
     </article>
@@ -156,6 +178,8 @@
       <div>
         <img
           src="./img/fotos/depoimento.jpg"
+          width="1560"
+          height="1360"
           alt="Pessoa pedalando uma bicicleta Bikcraft"
         />
       </div>
@@ -215,7 +239,7 @@
 
     <footer class="footer-bg">
       <div class="footer container">
-        <img src="./img/bikcraft.svg" alt="Bikcraft" />
+        <img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft" />
 
         <div class="footer-contact">
           <h3 class="font-2-l-b cor-0">Contato</h3>
@@ -230,12 +254,27 @@
 
           <div class="footer-socials">
             <a href="./">
-              <img src="./img/redes/instagram.svg" alt="instagram" />
+              <img
+                src="./img/redes/instagram.svg"
+                width="32"
+                height="32"
+                alt="instagram"
+              />
             </a>
             <a href="./"
-              ><img src="./img/redes/facebook.svg" alt="facebook"
+              ><img
+                src="./img/redes/facebook.svg"
+                width="32"
+                height="32"
+                alt="facebook"
             /></a>
-            <a href="./"><img src="./img/redes/youtube.svg" alt="youtube" /></a>
+            <a href="./"
+              ><img
+                src="./img/redes/youtube.svg"
+                width="32"
+                height="32"
+                alt="youtube"
+            /></a>
           </div>
         </div>
 
